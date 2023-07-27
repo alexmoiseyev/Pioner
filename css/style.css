@@ -129,7 +129,6 @@ p,a,li{
 }
 .main__box-textbox-inner{
     margin-top: 20px;
-    margin-left: auto;
 }
 .main__box-textbox-text {
     max-width: 379px;
@@ -444,6 +443,12 @@ p,a,li{
         font-size: 33px;
     }
 }
+@media(max-width: 980px){
+    .main__box-textbox-inner{
+        margin-left: auto;
+    }
+}
+
 @keyframes menu-anim{
         0%{
             left: 0;
